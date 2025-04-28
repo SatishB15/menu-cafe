@@ -12,10 +12,13 @@ function App() {
         <MenuDisplay />
 
         <footer className="mt-16 text-center text-amber-700 text-sm">
-          <p>Open daily from 7am - 8pm</p>
-          <p className="mt-1">123 Cozy Street, Flavortown</p>
-          <p className="mt-4 text-xs">All images sourced from Unsplash</p>
+          <div className="space-y-1">
+            <p className="font-semibold">Open Daily · 7:00 AM — 8:00 PM</p>
+            <p>123 Street, Mumbai, India</p>
+          </div>
+          <p className="mt-6 text-xs text-amber-600">@ Images courtesy of Unsplash</p>
         </footer>
+
       </div>
     </main>
   )
